@@ -2,7 +2,10 @@
 
 function largerNum(num1, num2) {
     // you code here
-    
+    if (num1 > num2)
+        return num1
+    else if (num2 > num1)
+        return num2
 }
 
 // 2. Given two numbers, amount correct and amount possible of a test, return the corresponding letter grade.
